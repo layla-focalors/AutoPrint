@@ -12,3 +12,7 @@
 [2023-11-29 22:56:49.616928]file KakaoTalk_20231109_221206834.jpg is backuped
 [2023-11-29 22:56:49.814641]file KakaoTalk_20231109_221206834.jpg is printed
 [2023-11-29 22:56:54.818911]file KakaoTalk_20231109_221206834.jpg is deleted
+[2023-11-29 22:59:26.063099]API SERVER : fastapi server is On
+[2023-11-29 23:01:39.556906]API SERVER : fastapi server is On
+[2023-11-29 23:02:33.800456]API SERVER : fastapi server is On
+[2023-11-29 23:04:00.534265]API SERVER : fastapi server is On

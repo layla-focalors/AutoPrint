@@ -28,14 +28,18 @@ def MakeLog(action, file_name):
 def PrintFile(file_list):
     file_Path = './cache'
     names = []
-    for i in file_list:
-        CopyFile(i)
-        os.startfile(file_Path + "\\"+ i, "print")
-        MakeLog("print", i)
-        names.append(i)
-    time.sleep(5)
-    for j in names:
-        DropFile(j)
+    if(len(file_list) == 1):
+        os.startfile(file_Path + "\\"+ file_list[0], "print")
+        DropFile(file_list[0])
+    else:
+        for i in file_list:
+            CopyFile(i)
+            os.startfile(file_Path + "\\"+ i, "print")
+            MakeLog("print", i)
+            names.append(i)
+        time.sleep(5)
+        for j in names:
+            DropFile(j)
         
 def CopyFile(file_name):
     filePath = './cache'

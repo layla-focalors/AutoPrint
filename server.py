@@ -24,11 +24,13 @@ async def upload_file(file: UploadFile = File(...)):
 
 @app.get("/v1/print/{file_name}")
 async def fileload(file_name):
-    staticapi.PrintFile(staticapi.GetFile())
+    print(file_name)
+    staticapi.PrintFile(file_name)
     return {"Message" : "print_requested"}
 
 @app.get("/printall")
 async def printall():
+    staticapi.PrintFile(staticapi.GetFile())
     return {"Message" : "printingAll..."}
 
 def Runserver():
