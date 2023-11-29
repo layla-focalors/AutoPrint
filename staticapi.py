@@ -2,6 +2,7 @@ import os
 import datetime
 import shutil
 import time
+import server
 
 def GetFile():
     filePath = './cache'
@@ -17,6 +18,10 @@ def MakeLog(action, file_name):
         file.write(f"[{time}]file {file_name} is backuped\n")
     elif(action == "del"):
         file.write(f"[{time}]file {file_name} is deleted\n")
+    elif(action == "Onserver"):
+        file.write(f"[{time}]API SERVER : {file_name} server is On\n")
+    else:
+        file.write(f"[{time}]Request Error\n")
     file.close()
     return None
 
@@ -44,4 +49,5 @@ def DropFile(file_name):
     MakeLog("del", file_name)
         
 if __name__ == "__main__":
-    PrintFile(GetFile())
+    # PrintFile(GetFile())
+    server.Runserver()

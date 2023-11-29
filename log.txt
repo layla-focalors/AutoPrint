@@ -4,3 +4,11 @@
 [2023-11-29 22:43:02.399571]file test2.txt is printed
 [2023-11-29 22:43:07.403103]file test1.txt is deleted
 [2023-11-29 22:43:07.403103]file test2.txt is deleted
+[2023-11-29 22:47:26.791222]API SERVER : fastapi is On
+[2023-11-29 22:51:23.547119]API SERVER : fastapi server is On
+[2023-11-29 22:52:21.901880]API SERVER : fastapi server is On
+[2023-11-29 22:53:35.668032]API SERVER : fastapi server is On
+[2023-11-29 22:56:25.284425]API SERVER : fastapi server is On
+[2023-11-29 22:56:49.616928]file KakaoTalk_20231109_221206834.jpg is backuped
+[2023-11-29 22:56:49.814641]file KakaoTalk_20231109_221206834.jpg is printed
+[2023-11-29 22:56:54.818911]file KakaoTalk_20231109_221206834.jpg is deleted
