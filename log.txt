@@ -16,3 +16,5 @@
 [2023-11-29 23:01:39.556906]API SERVER : fastapi server is On
 [2023-11-29 23:02:33.800456]API SERVER : fastapi server is On
 [2023-11-29 23:04:00.534265]API SERVER : fastapi server is On
+[2023-11-29 23:06:02.875878]API SERVER : fastapi server is On
+[2023-11-29 23:06:08.461850]file test1.txt is deleted
