@@ -1,9 +1,24 @@
 import os
-# fastapi 붙여서 자동 프린터 서버 구축
+import datetime
 
-filePath = './cache'
-file_list = os.listdir(filePath)
+def GetFile():
+    filePath = './cache'
+    file_list = os.listdir(filePath)
+    return file_list
 
-for i in file_list:
-    print(i)
-    
+def MakeLog(action, file_name):
+    file = open("log.txt", "a")
+    if(action == "print"):
+        time = datetime.datetime.now()
+        file.write(f"[{time}]file {file_name} is printed\n")
+    file.close()
+    return None
+
+def PrintFile(file_list):
+    file_Path = './cache'
+    for i in file_list:
+        os.startfile(file_Path + "\\"+ i, "print")
+        MakeLog("print", i)
+        
+if __name__ == "__main__":
+    PrintFile(GetFile())

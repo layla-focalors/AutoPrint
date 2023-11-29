@@ -1,0 +1,2 @@
+[2023-11-29 22:30:32.413533]file test1.txt is printed
+[2023-11-29 22:30:32.482868]file test2.txt is printed
