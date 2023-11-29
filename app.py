@@ -13,7 +13,7 @@ def MakeLog(action, file_name):
     if(action == "print"):
         file.write(f"[{time}]file {file_name} is printed\n")
     elif(action == "copy"):
-        file.write(f"[{time}]file {file_name} is backuped")
+        file.write(f"[{time}]file {file_name} is backuped\n")
     file.close()
     return None
 
