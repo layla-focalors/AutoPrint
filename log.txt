@@ -1,0 +1,6 @@
+[2023-11-29 22:43:02.160699]file test1.txt is backuped
+[2023-11-29 22:43:02.337082]file test1.txt is printed
+[2023-11-29 22:43:02.337082]file test2.txt is backuped
+[2023-11-29 22:43:02.399571]file test2.txt is printed
+[2023-11-29 22:43:07.403103]file test1.txt is deleted
+[2023-11-29 22:43:07.403103]file test2.txt is deleted
